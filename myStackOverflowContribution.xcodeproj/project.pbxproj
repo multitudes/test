@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4574F07E2367225700580B7C /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4574F07E2367225700580B7C /* myStackOverflowContribution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myStackOverflowContribution.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4574F0812367225700580B7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4574F0832367225700580B7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4574F0862367225700580B7C /* test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = test.xcdatamodel; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		4574F07F2367225700580B7C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4574F07E2367225700580B7C /* test.app */,
+				4574F07E2367225700580B7C /* myStackOverflowContribution.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,9 +81,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4574F07D2367225700580B7C /* test */ = {
+		4574F07D2367225700580B7C /* myStackOverflowContribution */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4574F0952367225900580B7C /* Build configuration list for PBXNativeTarget "test" */;
+			buildConfigurationList = 4574F0952367225900580B7C /* Build configuration list for PBXNativeTarget "myStackOverflowContribution" */;
 			buildPhases = (
 				4574F07A2367225700580B7C /* Sources */,
 				4574F07B2367225700580B7C /* Frameworks */,
@@ -93,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = test;
+			name = myStackOverflowContribution;
 			productName = test;
-			productReference = 4574F07E2367225700580B7C /* test.app */;
+			productReference = 4574F07E2367225700580B7C /* myStackOverflowContribution.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4574F0792367225700580B7C /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = 4574F0792367225700580B7C /* Build configuration list for PBXProject "myStackOverflowContribution" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -126,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4574F07D2367225700580B7C /* test */,
+				4574F07D2367225700580B7C /* myStackOverflowContribution */,
 			);
 		};
 /* End PBXProject section */
@@ -327,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4574F0792367225700580B7C /* Build configuration list for PBXProject "test" */ = {
+		4574F0792367225700580B7C /* Build configuration list for PBXProject "myStackOverflowContribution" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4574F0932367225900580B7C /* Debug */,
@@ -336,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4574F0952367225900580B7C /* Build configuration list for PBXNativeTarget "test" */ = {
+		4574F0952367225900580B7C /* Build configuration list for PBXNativeTarget "myStackOverflowContribution" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4574F0962367225900580B7C /* Debug */,

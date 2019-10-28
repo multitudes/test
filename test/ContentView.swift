@@ -9,8 +9,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var loginViewWidth = UIScreen.main.bounds.width / 1.3
+    
     var body: some View {
-        Text("Hello World")
+        ZStack{
+            Image("LoginBackground")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .edgesIgnoringSafeArea(.all)
+            
+            ZStack(alignment: .bottom) {
+                RoundedRectangle(cornerRadius: 30).foregroundColor(.white)
+                    
+                Image("chick")
+                    .resizable()
+                    
+                    .aspectRatio(contentMode: .fit)
+                
+            }.frame(width: loginViewWidth, height: loginViewWidth * 1.7)
+        }
     }
 }
 
