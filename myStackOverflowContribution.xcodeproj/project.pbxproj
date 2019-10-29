@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		450F1547236878A800370640 /* withoutDecimalPoint.gif in Resources */ = {isa = PBXBuildFile; fileRef = 450F1546236878A800370640 /* withoutDecimalPoint.gif */; };
 		4574F0822367225700580B7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574F0812367225700580B7C /* AppDelegate.swift */; };
 		4574F0842367225700580B7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574F0832367225700580B7C /* SceneDelegate.swift */; };
 		4574F0872367225700580B7C /* test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4574F0852367225700580B7C /* test.xcdatamodeld */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		450F1546236878A800370640 /* withoutDecimalPoint.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = withoutDecimalPoint.gif; sourceTree = "<group>"; };
 		4574F07E2367225700580B7C /* myStackOverflowContribution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myStackOverflowContribution.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4574F0812367225700580B7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4574F0832367225700580B7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				4574F0882367225700580B7C /* ContentView.swift */,
 				4574F08A2367225900580B7C /* Assets.xcassets */,
 				4574F08F2367225900580B7C /* LaunchScreen.storyboard */,
+				450F1546236878A800370640 /* withoutDecimalPoint.gif */,
 				4574F0922367225900580B7C /* Info.plist */,
 				4574F0852367225700580B7C /* test.xcdatamodeld */,
 				4574F08C2367225900580B7C /* Preview Content */,
@@ -136,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				450F1547236878A800370640 /* withoutDecimalPoint.gif in Resources */,
 				4574F0912367225900580B7C /* LaunchScreen.storyboard in Resources */,
 				4574F08E2367225900580B7C /* Preview Assets.xcassets in Resources */,
 				4574F08B2367225900580B7C /* Assets.xcassets in Resources */,
