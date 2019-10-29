@@ -9,25 +9,23 @@
 import SwiftUI
 
 struct ContentView: View {
-    
-    var loginViewWidth = UIScreen.main.bounds.width / 1.3
-    
+    @State private var enteredNumber = ""
+    var enteredNumberFormatted: Double {
+        return (Double(enteredNumber) ?? 0) / 100
+    }
     var body: some View {
-        ZStack{
-            Image("LoginBackground")
-                .resizable()
-                .aspectRatio(contentMode: .fill)
-                .edgesIgnoringSafeArea(.all)
-            
-            ZStack(alignment: .bottom) {
-                RoundedRectangle(cornerRadius: 30).foregroundColor(.white)
-                    
-                Image("chick")
-                    .resizable()
-                    
-                    .aspectRatio(contentMode: .fit)
-                
-            }.frame(width: loginViewWidth, height: loginViewWidth * 1.7)
+        
+        Form {
+            Section {
+                ZStack(alignment: .leading) {
+                    TextField("", text: $enteredNumber)
+                        .keyboardType(.numberPad).foregroundColor(.clear)
+                        .textFieldStyle(PlainTextFieldStyle())
+                        .disableAutocorrection(true)
+                        .accentColor(.clear)
+                    Text("\(enteredNumberFormatted, specifier: "%.2f")")
+                }
+            }
         }
     }
 }
